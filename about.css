@@ -6,3 +6,9 @@
   height: 400px;
   width: 100%;
 }
+li{
+  display: block;
+  padding: 5px;
+  width: 60px;
+  color: blue;
+}
