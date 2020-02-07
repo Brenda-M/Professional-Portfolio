@@ -1,0 +1,8 @@
+#title{
+  text-align: center;
+}
+.navbar{
+  background-image: url("./images/title-image.jpg");
+  height: 400px;
+  width: 100%;
+}
