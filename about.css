@@ -78,6 +78,7 @@ h1{
 .job {
   color: white;
   font-size: 18px;
+  text-align: center;
 }
 p{
   color: white;
@@ -118,5 +119,16 @@ p{
  }
  .contact-info{
    margin:2em;
+   color: black;
 
  }
+#subject{
+  text-align: left;
+}
+.projects img {
+  max-width: 61%
+  padding:4px;
+  margin-bottom:5px;
+  marging-left: 5px;
+
+}
