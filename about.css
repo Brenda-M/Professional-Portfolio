@@ -12,7 +12,14 @@
 body{
   font-family: 'Taviraj', serif;
   font-weight: 400;
-  background-color: black;
+  background-image: url("./images/title-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.bg-image{
+
 }
 nav{
   background: rgb(148, 242, 230);
@@ -71,4 +78,6 @@ color: white;
 }
 p{
   color: white;
+  text-align: justify;
+  text-justify: inter-word;
 }
