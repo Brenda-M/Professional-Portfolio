@@ -1,42 +1,74 @@
 
-body {
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-top: 0;
-  margin-right: 0;
-  background-color:white;
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+
+
+}
+
+body{
   font-family: 'Taviraj', serif;
   font-weight: 400;
-}
-header{
-  background: rgb(148, 242, 230);
-}
-.navbar{
-  height: 100px;
-  background-color: rgb(148, 242, 230);
+  background-color: black;
 }
 nav{
-  text-align: center;
-  display: flex;
   background: rgb(148, 242, 230);
-  text-decoration: none;
-  float:right;
-  justify-content: space-around;
-  padding-left: 10px;
+  height: 80px;
+  width: 100%;
 }
-
-li{
+.profile{
+  color: white;
+  font-size: 30px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav li{
   display: inline-block;
-  margin-left: 10px;
-  padding-top: 0;
- }
+  line-height: 80px;
+  margin: 0 5px;
+}
 nav a{
-  color: black;
-  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding: 7px 17px;
+  border-radius:3px;
   text-transform: uppercase;
 }
+a.active, a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+h1{
+  font-size: 50px
+  font-weight: bold;
+  display: block;
+color: white;
 
-#profile{
-  float:left;
-
+}
+.personal-info {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.avatar {
+  vertical-align: middle;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.job {
+  color: white;
+  font-size: 18px;
+}
+p{
+  color: white;
 }
