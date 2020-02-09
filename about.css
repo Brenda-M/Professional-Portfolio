@@ -59,7 +59,8 @@ h1{
   display: block;
   color: gold;
   margin-right: 13px;
-    margin-left: 13px;
+  margin-left: 13px;
+  text-align: center;
 
 }
 .personal-info {
@@ -114,4 +115,8 @@ p{
    color:black;
    font-weight: bold;
    text-align: center;
+ }
+ .contact-info{
+   margin:2em;
+
  }
